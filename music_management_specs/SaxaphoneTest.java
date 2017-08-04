@@ -36,5 +36,10 @@ public class SaxaphoneTest {
     assertEquals(30.0, saxaphone.getBuyingPrice(), 0.1 );
   }
 
+  @Test
+  public void finalPrice() {
+    assertEquals(20.0, saxaphone.calculateMarkup(), 0.1);
+  }
+
 
 }
