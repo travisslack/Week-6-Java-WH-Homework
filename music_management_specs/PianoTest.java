@@ -13,16 +13,16 @@ public class PianoTest {
 
   @Test
   public void hasColour(){
-    assertEquals("Black", guitar.getColourOfInstrument() );
+    assertEquals("Black", piano.getColourOfInstrument() );
   }
 
-  // @Test
-  // public void typeofMaterial(){
-  //   assertEquals("Hardwood", guitar.getTypeOfMaterial() );
-  // }
+  @Test
+  public void typeofMaterial(){
+    assertEquals("Hardwood", piano.getTypeOfMaterial() );
+  }
 
-  // @Test
-  // public void typeofInstrument() {
-  //   assertEquals("Acoustic", guitar.getTypeOfInstrument() );
-  // }
+  @Test
+  public void typeofInstrument() {
+    assertEquals("Grand", piano.getTypeOfInstrument() );
+  }
 }
