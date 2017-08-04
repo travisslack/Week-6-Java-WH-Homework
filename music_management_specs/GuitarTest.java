@@ -9,6 +9,6 @@ public class GuitarTest {
   @Before
   public void before() {
 
-    guitar = new Guitar();
+    guitar = new Guitar(brown, mahogany, acoustic);
   }
 }
