@@ -36,8 +36,8 @@ public abstract class Instrument {
     return this.sellingPrice;
   }
 
-  // public double calculateMarkup(double buyingPrice, double sellingPrice) {
-  //   return this.sellingPrice - this.buyingPrice;
-  // }
+  public double calculateMarkup(double buyingPrice, double sellingPrice) {
+    return this.sellingPrice - this.buyingPrice;
+  }
   
 }
