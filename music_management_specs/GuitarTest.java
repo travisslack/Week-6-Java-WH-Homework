@@ -13,11 +13,16 @@ public class GuitarTest {
 
   @Test
   public void hasColour(){
-    assertEquals("Brown", guitar.getColour() );
+    assertEquals("Brown", guitar.getColourOfInstrument() );
   }
 
   @Test
   public void typeofMaterial(){
     assertEquals("Mahogany", guitar.getTypeOfMaterial() );
+  }
+
+  @Test
+  public void typeofInstrument() {
+    assertEquals("Acoustic", guitar.getTypeOfInstrument() );
   }
 }

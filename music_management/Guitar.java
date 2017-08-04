@@ -11,12 +11,5 @@ public class Guitar extends Instrument implements Playable {
     return "Waooooo!";
   }
 
-  public String getColour() {
-    return this.colour;
-  }
-
-  public String getTypeOfMaterial() {
-    return this.material;
-  }
 
 }

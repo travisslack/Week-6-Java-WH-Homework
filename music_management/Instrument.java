@@ -16,7 +16,7 @@ public abstract class Instrument {
     return this.colour;
   }
 
-  public String getMaterialOfInstrument() {
+  public String getTypeOfMaterial() {
     return this.material;
   }
 
