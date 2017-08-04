@@ -8,7 +8,7 @@ public class SaxaphoneTest {
 
   @Before
   public void before() {
-    saxaphone = new Saxaphone("Gold", "Brass", "Baritone");
+    saxaphone = new Saxaphone("Gold", "Brass", "Baritone", 30, 50);
   }
 
   @Test

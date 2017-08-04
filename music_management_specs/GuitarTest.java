@@ -8,7 +8,7 @@ public class GuitarTest {
 
   @Before
   public void before() {
-    guitar = new Guitar("Brown", "Mahogany", "Acoustic");
+    guitar = new Guitar("Brown", "Mahogany", "Acoustic", 80, 150);
   }
 
   @Test
@@ -25,13 +25,9 @@ public class GuitarTest {
   public void typeofInstrument() {
     assertEquals("Acoustic", guitar.getTypeOfInstrument() );
   }
-
-  // public void sellingPrice() {
-  //   assertEquals("12", guitar.getBuyingPrice() ;)
-  // }
+  @Test
+  public void buyingPrice() {
+    assertEquals(80.0, guitar.getBuyingPrice(), 0.1 );
+  }
 }
 
-// public String screenMessage(){
-// String output = "£"
-// return output + this.cost;
-// 
