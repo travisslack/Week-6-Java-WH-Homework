@@ -27,14 +27,15 @@ public class GuitarTest {
   }
   
   @Test
+  public void sellingPrice() {
+    assertEquals(150.0, guitar.getSellingPrice(), 0.1);
+  }
+  
+  @Test
   public void buyingPrice() {
     assertEquals(80.0, guitar.getBuyingPrice(), 0.1 );
   }
 
-  @Test
-  public void sellingPrice() {
-    assertEquals(150.0, guitar.getSellingPrice(), 0.1);
-  }
 
   @Test
   public void finalPrice() {

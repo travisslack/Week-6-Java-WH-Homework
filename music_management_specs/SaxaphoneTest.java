@@ -25,4 +25,11 @@ public class SaxaphoneTest {
   public void typeofInstrument() {
     assertEquals("Baritone", saxaphone.getTypeOfInstrument() );
   }
+
+  @Test
+  public void sellingPrice() {
+    assertEquals(50.0, saxaphone.getSellingPrice(), 0.1);
+  }
+
+
 }
