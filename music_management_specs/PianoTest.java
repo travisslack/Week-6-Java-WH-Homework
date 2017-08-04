@@ -25,4 +25,14 @@ public class PianoTest {
   public void typeofInstrument() {
     assertEquals("Grand", piano.getTypeOfInstrument() );
   }
+
+  @Test
+  public void buyingPrice() {
+    assertEquals(90.0, piano.getBuyingPrice(), 0.1 );
+  }
+
+  // @Test
+  // public void sellingPrice() {
+  //   assertEquals(150.0, guitar.getSellingPrice(), 0.1);
+  // }
 }
