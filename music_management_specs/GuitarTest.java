@@ -8,7 +8,16 @@ public class GuitarTest {
 
   @Before
   public void before() {
+    guitar = new Guitar("Brown", "Mahogany", "Acoustic");
+  }
 
-    guitar = new Guitar(brown, mahogany, acoustic);
+  @Test
+  public void hasColour(){
+    assertEquals("Brown", guitar.getColour() );
+  }
+
+  @Test
+  public void typeofMaterial(){
+    assertEquals("Mahogany", guitar.getTypeOfMaterial() );
   }
 }
