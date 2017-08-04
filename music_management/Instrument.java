@@ -5,11 +5,15 @@ public abstract class Instrument {
   protected String colour;
   protected String material;
   protected String type;
+  protected double buyingPrice;
+  protected double sellingPrice;
 
-  public Instrument(String colour, String material, String type) {
+  public Instrument(String colour, String material, String type, double buyingPrice, double sellingPrice) {
     this.colour = colour;
     this.material = material;
     this.type = type;
+    this.buyingPrice = buyingPrice;
+    this.selingPrice = sellingPrice;
   }
 
   public String getColourOfInstrument() {
@@ -24,4 +28,12 @@ public abstract class Instrument {
     return this.type;
   }
 
+  public double getBuyingPrice() {
+    return this.buyingPrice;
+  }
+
+  public double getSellingPrice() {
+    return this.sellingPrice;
+  }
+  
 }

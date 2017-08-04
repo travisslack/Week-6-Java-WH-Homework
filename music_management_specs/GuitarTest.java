@@ -25,4 +25,13 @@ public class GuitarTest {
   public void typeofInstrument() {
     assertEquals("Acoustic", guitar.getTypeOfInstrument() );
   }
+
+  // public void sellingPrice() {
+  //   assertEquals("12", guitar.getBuyingPrice() ;)
+  // }
 }
+
+// public String screenMessage(){
+// String output = "£"
+// return output + this.cost;
+// 
