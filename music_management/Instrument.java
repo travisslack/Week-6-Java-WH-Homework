@@ -12,8 +12,8 @@ public abstract class Instrument {
     this.colour = colour;
     this.material = material;
     this.type = type;
-    this.buyingPrice = buyingPrice;
     this.sellingPrice = sellingPrice;
+    this.buyingPrice = buyingPrice;
   }
 
   public String getColourOfInstrument() {
@@ -36,7 +36,7 @@ public abstract class Instrument {
     return this.sellingPrice;
   }
 
-  public double calculateMarkup(double buyingPrice, double sellingPrice) {
+  public double calculateMarkup() {
     return this.sellingPrice - this.buyingPrice;
   }
   
